@@ -1,0 +1,32 @@
+Optimal Arrangement (Public Contest: CodeRush October'23)
+
+You are given N holes and some balls. The goal of this game is to make the balls line up. The game is described by a string of length N, consisting of the characters '0' (empty holes) and '1' (holes containing balls). In one move, you can move any ball one square to the left or one square to the right, if the corresponding square exists and is empty. The game ends as soon as the balls are lined up, that is, there should be no empty cells between any balls.
+Determine the minimum number of moves required to line up the balls.
+Input
+Input:
+The first line of the input contains a single integer N.
+The next line contains a binary string of length N, representing the state of the game.
+
+
+Constraints
+
+1<=N<=100000
+Output
+Output:
+Output a single integer, the minimum number of moves required to line up the balls.
+Example
+Input:
+5
+11011
+
+Output:
+2
+
+Input:
+7
+1000001
+
+Output:
+5
+
+Attaining configuration 11110 and 0110000 will require the 2 and 5 moves respectively for the above test cases.
